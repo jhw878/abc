@@ -90,3 +90,4 @@ document.getElementById('restart-button').addEventListener('click', () => {
 
 // 초기화 및 게임 시작
 createBoard();
+
