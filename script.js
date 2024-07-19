@@ -49,7 +49,7 @@ function createBoard() {
                     matchedPairs += 1;
                     if (matchedPairs === images.length / 2) {
                         clearInterval(timerInterval);
-                        setTimeout(() => alert(`게임 끝! 시간: ${formatTime(Date.now() - startTime)}`), 500);
+                        setTimeout(() => alert(`게임 끝! `), 500);
                     }
                 } else {
                     setTimeout(() => {
