@@ -16,6 +16,7 @@ body {
 #game-board {
     display: grid;
     grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(3, 100px);
     grid-gap: 10px;
     margin-bottom: 20px;
 }
