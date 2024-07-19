@@ -1,17 +1,3 @@
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0;
-}
-
-#game-board {
-    display: grid;
-    grid-template-columns: repeat(4, 100px);
-    grid-gap: 10px;
-}
-
 .card {
     width: 100px;
     height: 100px;
@@ -21,6 +7,11 @@ body {
     align-items: center;
     border: 1px solid #ccc;
     cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.card.flipped {
+    transform: rotateY(180deg);
 }
 
 .card img {
