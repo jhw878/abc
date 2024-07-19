@@ -48,3 +48,12 @@ body {
     font-size: 16px;
     cursor: pointer;
 }
+
+/* 모바일 환경을 위한 미디어 쿼리 */
+@media (max-width: 600px) {
+    #game-board {
+        grid-template-columns: repeat(3, 100px);
+        grid-template-rows: repeat(4, 100px);
+    }
+}
+
